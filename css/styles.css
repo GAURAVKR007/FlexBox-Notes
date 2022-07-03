@@ -1,0 +1,79 @@
+.flex-container {
+  display: flex;
+  /* width: 1200px; */
+  height: 45vh;
+  border: solid black;
+                                 /* flex-direction */
+  /* flex-direction: row;          /* your main axis will run along the row in the inline direction. */
+  /* flex-direction: column;       /*  your main axis will run from the top of the page to the bottom — in the block direction. */
+  /* flex-direction: row-reverse;    /* your content will placed in row end in reverse order */
+  /* flex-direction: column-reverse; /* your content will placed in coloumn end in reverse order  */
+
+                                 /* flex-wrap */
+   /* flex-wrap: wrap;    /* if items is to big for Flexbox then items will get wrapped in the next line,  inside the Flexbox */
+   /* flex-wrap: nowrap; */
+   /* flex-wrap: wrap-reverse;   /* wrap the items in revese column order */
+   /* flex-wrap: wrap-reverse; */
+
+                                 /* align-items */
+    /* align-items: center;          /* Align all items vertically center inside a Flexbox */
+    /* align-items: stretch;         /* Default senerio of a flexbox , items cover everything vertically*/
+    /* align-items :flex-start;      /* Pack items from the start */
+    /* align-items: flex-end;        /* Pack items from the end */
+    /* align-items: baseline;        /* the info of items in flexbox will get alinged on a baseline */
+
+                                 /* align-content */
+                  /* { This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect. }        */
+
+    /* flex-start: Lines are packed at the top of the container. */
+    /* flex-end: Lines are packed at the bottom of the container. */
+    /* center: Lines are packed at the vertical center of the container. */
+    /* space-between: Lines display with equal spacing between them. */
+    /* space-around: Lines display with equal spacing around them. */
+    /* stretch: Lines are stretched to fit the container. */ 
+
+                                /* justify-content */
+
+  /* justify-content: space-around;      /* To give space around the content inside the Flexbox */
+  /* justify-content: center;            /* To Align everthing in center inside a Flexbox */
+  /* justify-content: flex-end;          /* To Align everything in end , inside of a Flexbox */
+  /* justify-content: flex-start;        /* To Align everything in Start , inside of a Flexbox */
+  /* justify-content: space-between;     /* To give space between the content inside the Flexbox */
+  /* justify-content: space-evenly;      /* To give space evenly around every item in Flexbox*/
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: #7D9D9C;
+  color: #A10035;
+  /* flex-grow: 3;                /* To grow the size of any items inside Flexbox */
+  /* flex-shrink: 2; */           /* To Shrink the size of any items inside Flexbox */
+  /* order: 2;                    /* The Bigger the order the farthest the box will be placed */
+  /* align-self: center;          /* it align the specific item vertically centered  */
+  margin-right: 30px;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: #8879B0;
+  color: #2C3639;
+  margin: 0 30px 0 30px;
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: #CED89E;
+  color: #F15412;
+  margin: 0 30px 0 30px;
+}
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-color: #D4D925;
+  color: #363062;
+  margin-left: 30px;
+}
